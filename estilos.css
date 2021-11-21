@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --rojo1:#ff5252;
+    --rojo2:#ff8a65;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(225, 79, 174, 0.5) 0%, rgba(249, 213, 35, 0.5) 100%);
+
+}
+
+.row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    min-height: 1px;
+}
+
+.parallax-container{
+    background-image: linear-gradient(to right, rgba(250, 112, 153, 0.418) 0%, rgba(254, 225, 64, 0.418) 100%);
+}
+
+element.style {
+    stroke: #fff9c4;
+    fill: #fff9c4;
+}
+
+p{
+    color:#b6a49e;
+}
+
+h3 {
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin:0;
+}
+
+h4 {
+    font-size: 2.28rem;
+    line-height: 110%;
+    margin: 1.52rem 0 .912rem 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.trabajos{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.trabajos p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10% 10%;
+}
+
+.trabajos h4{
+    color: var(--rojo2);
+}
+
+.somos p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.somos h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    color: var(--rojo2);
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto p{
+    text-align: center;
+    color: var(--rojo2);
+}
+
